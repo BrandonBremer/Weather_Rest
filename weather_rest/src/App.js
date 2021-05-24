@@ -18,10 +18,10 @@ function App() {
             <li ><a href ="/" >
               Home</a>
             </li>
-            <li ><a href ="./restFinder/restfinder/src/rest_finder.js">
+            <li ><a href ="/restFinder">
               Restaurant</a>
             </li>
-            <li>< a href = "./restFinder/restfinder/src/rest_finder.js">
+            <li>< a href = "/Weather">
               Weather</a>
             </li>
           </ul>
@@ -30,10 +30,10 @@ function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-        <Route  path="/restFinder/restfinder/src/rest_finder.js">
+        <Route  path="/restFinder">
           <Rest_Finder/>
           </Route>
-          <Route path="/restFinder/restfinder/src/rest_finder.js">
+          <Route path="/Weather">
           <WeatherApp/>
           </Route>
           <Route  path="/" >
